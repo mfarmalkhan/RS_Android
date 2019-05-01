@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="fit.realstrength.www.real_strength">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.Camera" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/real_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity
+            android:name=".LoginPage"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GoogleSignOut" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".SetProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GoalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LevelActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AgeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WeightActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HeightActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UploadPhoto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileHomePage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateNameAndPhoto"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateAge"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateGoal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateLevel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LogOut"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="fit.realstrength.www.real_strength"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".UpdateWeight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpdateHeight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Height2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ContactUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Statistics"
+            android:screenOrientation="landscape" />
+        <activity android:name=".CalenderActivity" />
+        <activity android:name=".Full_Body" />
+        <activity android:name=".Workout_Details" />
+        <activity android:name=".UpperBody" />
+        <activity android:name=".LowerBody" />
+        <activity android:name=".AbsBody"></activity>
+    </application>
+
+</manifest>

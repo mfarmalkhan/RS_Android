@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1023774163192",
+    "firebase_url": "https://real-strength.firebaseio.com",
+    "project_id": "real-strength",
+    "storage_bucket": "real-strength.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023774163192:android:eb482342f0325336",
+        "android_client_info": {
+          "package_name": "fit.realstrength.www.real_strength"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023774163192-mqq8le8cvhahnvdj4fe4dudd5gu8gcmo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhXulWE1Tuq9NddhVLMUH_5H9wg9maLHY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

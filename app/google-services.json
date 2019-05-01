@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "817341667710",
+    "firebase_url": "https://real-strength-7b70e.firebaseio.com",
+    "project_id": "real-strength-7b70e",
+    "storage_bucket": "real-strength-7b70e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817341667710:android:eb482342f0325336",
+        "android_client_info": {
+          "package_name": "fit.realstrength.www.real_strength"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817341667710-3huuaq3efdvh2soqeeht6ek5vpvhb310.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fit.realstrength.www.real_strength",
+            "certificate_hash": "faf88623e36cecb7a429ed2adfc0581b58a727dc"
+          }
+        },
+        {
+          "client_id": "817341667710-7s1l7l2ekj451pbldp9rntpj9ea88a49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY22qFJ9SF7nZZCLjtzpmJDRlrf_Ne400"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817341667710-dacteai75e4tkfdrprj6rgbauvftbevp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

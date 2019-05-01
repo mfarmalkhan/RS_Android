@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgeActivity">
+
+
+    <ProgressBar
+        android:id="@+id/progressAge"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="179dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginLeft="103dp"
+        android:layout_marginRight="102dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAge" />
+
+    <Button
+        android:id="@+id/btnAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="79dp"
+        android:gravity="center_horizontal"
+        android:text="Next"
+        app:layout_constraintBottom_toTopOf="@+id/progressAge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupAge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupAge"
+        android:layout_width="178dp"
+        android:layout_height="132dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="153dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/btnAge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <RadioButton
+            android:id="@+id/rdAge1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="18 - 22" />
+
+        <RadioButton
+            android:id="@+id/rdAge2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="23 - 28" />
+
+        <RadioButton
+            android:id="@+id/rdAge3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="29 - 35" />
+
+        <RadioButton
+            android:id="@+id/rdAge4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="35+" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:text="HOW OLD ARE YOU?"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="151dp"
+        android:gravity="center_horizontal"
+        android:text="This information will help us reommend you programs that people of similar age follow"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroupAge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAge" />
+
+
+</RelativeLayout>

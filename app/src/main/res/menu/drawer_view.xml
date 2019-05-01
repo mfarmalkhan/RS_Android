@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/icon_schedule"
+            android:title="My Schedule" />
+
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/icon_stats"
+            android:title="My Statistics" />
+
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/icon_profile"
+            android:title="My Profile"
+            android:visible="true" />
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/icon_notification"
+            android:title="Notifications" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/icon_about_us"
+            android:title="User Manual" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/icon_contact_us"
+            android:title="Contact us" />
+
+        <item
+            android:id="@+id/nav_logOut"
+            android:enabled="true"
+            android:icon="@drawable/icon_logout"
+            android:title="Log Out"
+            android:visible="true" />
+
+    </group>
+
+</menu>

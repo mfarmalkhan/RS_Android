@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "192142234665",
+    "firebase_url": "https://loginapp-9e690.firebaseio.com",
+    "project_id": "loginapp-9e690",
+    "storage_bucket": "loginapp-9e690.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192142234665:android:fb1e1c19ab7af957",
+        "android_client_info": {
+          "package_name": "com.example.farmal.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192142234665-49lnhdmk6if45h82dmqtrdouvqpbc51q.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "192142234665-49lnhdmk6if45h82dmqtrdouvqpbc51q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXI6r4N-gsET4lriNjPaBeAW2mQCkTdLM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
